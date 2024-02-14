@@ -13,7 +13,6 @@ function App() {
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="pdf-link">{pdfUrl}</a>
         </div>
         <div className = "pdf-container">
-          {/* You can display the PDF using an iframe */}
           {pdfUrl && (
             <iframe
               title="PDF Viewer"
