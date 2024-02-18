@@ -7,7 +7,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>AI Taxonomy Project</h1>
+        <h1>AI Privacy Taxonomy</h1>
+        <div>
+          <h3>Reference Info:</h3>
+          <p>Hao-Ping (Hank) Lee, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, 
+            and Sauvik Das. 2024. Deepfakes, Phrenology, Surveillance, and More! 
+            A Taxonomy of AI Privacy Risks. In Proceedings of the CHI Conference on Human 
+            Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, 
+            New York, NY, USA, 30 pages.</p>
+        </div>
         <p>Full Website Coming Soon...</p>
         <div>
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="pdf-link">{pdfUrl}</a>
