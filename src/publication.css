@@ -1,0 +1,29 @@
+.App {
+    background-color: #01010D;
+    padding-bottom: 200px;
+
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .pdf-container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  
+  .pdf-link {
+    color: white;
+  }

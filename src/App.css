@@ -1,53 +1,186 @@
+:root {
+  --primary-color: #15B7BC;
+  --border-radius: 20px;
+
+}
+
 * {
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #282c34;
-
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
 }
+
 .App {
-  text-align: center;
+  background-color: #01010D;
+  padding-bottom: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.header-container {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url('images/home-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 200px;
+  padding-right: 50px;
   display: flex;
-  flex-direction: column;
+  align-items: center; /* Align items vertically */
+}
+
+.header-container2 {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url('images/ai-brain.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 200px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(1, 1, 13, 1)); /* Gradient overlay */
+}
+
+.header-text {
+  position: relative;
+  flex-grow: 1; /* Allow header text to take remaining space */
+}
+
+.content {
+  padding-left: 20px;
+}
+
+.main-title {
+  margin: 0;
+  color: white;
+  font-size: 55px; /* Increased font size */
+  font-weight: bold; /* Made bold */
+}
+
+.paragraph-title {
+  margin: 0;
+  color: white;
+  font-size: 40px; /* Increased font size */
+  font-weight: normal; /* Made bold */
+}
+
+.subtitle {
+  margin: 0;
+  color: white;
+  font-weight: normal; /* Removed bold */
+}
+
+.learn-more-button {
+  margin-top: 20px; /* Increased margin */
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 20px 40px; /* Increased button size */
+  border-radius: 8px; /* Increased border radius */
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Made text bold */
+}
+
+.learn-more-button:hover {
+  background-color: #0F9297; /* Darken the color slightly on hover */
+}
+
+.header-text > .content > * {
+  margin-bottom: 15px;
+}
+
+.info-paragraph {
+  padding-right: 200px; /* Add right padding for better spacing */
+  margin-top: 150px; /* Add margin to separate content from header */
+  color: white; /* Add text color */
+  padding-left: 200px;
+
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Align cards horizontally with space between */
+  gap: 30px;
+  margin-top: 40px; /* Add margin to separate from previous content */
+}
+
+.card {
+  width: 100%; /* Adjust the width of the cards */
+  height: 200px;
+  border: 1px solid #ccc; /* Gray outline */
+  padding: 40px; /* Add padding inside the cards */
+  border-radius: var(--border-radius);
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-image-placeholder {
+  width: 130px; /* Adjust the width of the image placeholder */
+  height: 130px; /* Adjust the height of the image placeholder */
+  float: right; /* Float the image placeholder to the left */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.large-card-text {
+  font-size: 40px;
+  font-weight: bold; /* Make large card text bold */
+  margin-bottom: 3px; /* Add margin between large and small card text */
+  
 }
 
-.pdf-container {
-  width: 80%;
-  padding-top: 50px;
-  padding-bottom: 150px;
+.small-card-text {
+  font-size: 14px; /* Set font size for small card text */
 }
 
-.pdf-link {
-  color: white;
+.blue-line {
+  width: 75px; /* Adjust the width of the line */
+  height: 5px; /* Adjust the height of the line */
+  background-color: var(--primary-color); /* Blue color */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Add some space below the line */
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: space-between; /* Align circles horizontally with space between */
+  margin-top: 200px; /* Add margin to separate from previous content */
+  padding-right: 200px; /* Add right padding for better spacing */
+  margin-top: 150px; /* Add margin to separate content from header */
+  padding-left: 200px;
+}
+
+.circle {
+  width: 250px; /* Diameter of the circle */
+  height: 250px; /* Diameter of the circle */
+  background-color: transparent; /* Transparent background */
+  border: 5px solid var(--primary-color); /* Border color as primary color variable */
+  border-radius: 50%; /* Make it a circle */
+}
+
+.img-container {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center; /* Align cards horizontally with space between */
+  margin-top: 20px; /* Add margin to separate from previous content */
+}
+
+.img-container img {
+  max-height:90%; 
+  max-width:90%;
 }
