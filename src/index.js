@@ -11,6 +11,8 @@ import App from './App'
 import Home from './Home'
 import Methods from './methods'
 import Publication from './publication'
+import Exposure from './taxonomy_pages/exposure'
+
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,7 @@ const router = createBrowserRouter([
       element: <App />,
       children: [
           {
-              path: '/',
+              path: '/aiprivacytaxonomy',
               element: <Home />,
           },
           {
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
           {
               path: '/publication',
               element: <Publication />,
+          },
+          {
+            path: '/exposure',
+            element: <Exposure />,
           },
       ]
   }

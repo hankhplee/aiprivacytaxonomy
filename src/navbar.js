@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className="brand">AI Taxonomy Privacy</span>
       </div>
       <div className="right">
-        <Link to="/" className="link">Home</Link>
+        <Link to="/aiprivacytaxonomy" className="link">Home</Link>
         <Link to="/methods" className="link">Methods</Link>
         <Link to="/publication" className="link">Publication</Link>
       </div>

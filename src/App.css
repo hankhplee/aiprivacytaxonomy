@@ -108,7 +108,16 @@
 
 }
 
+.info-paragraph2 {
+  margin-top: 50px; /* Add margin to separate content from header */
+  color: white; /* Add text color */
+  padding-right: 200px;
 
+}
+
+.bottom-padding {
+  padding-bottom: 600px;
+}
 .card-container {
   display: flex;
   justify-content: space-between; /* Align cards horizontally with space between */
@@ -126,6 +135,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(21, 183, 188, 0.5); /* Add outer glow effect */
 }
 
 .card-image-placeholder {
@@ -159,18 +175,62 @@
 .circle-container {
   display: flex;
   justify-content: space-between; /* Align circles horizontally with space between */
+  gap: 40px;
   margin-top: 200px; /* Add margin to separate from previous content */
   padding-right: 200px; /* Add right padding for better spacing */
   margin-top: 150px; /* Add margin to separate content from header */
   padding-left: 200px;
+  width: 100%;
 }
 
-.circle {
-  width: 250px; /* Diameter of the circle */
-  height: 250px; /* Diameter of the circle */
-  background-color: transparent; /* Transparent background */
-  border: 5px solid var(--primary-color); /* Border color as primary color variable */
-  border-radius: 50%; /* Make it a circle */
+.circle-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle-image img {
+  max-width: 120px;
+  max-height: 500px;
+
+}
+
+
+
+.column {
+  width: 25%; /* Make each column span 25% of the screen width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column-content {
+  margin-top: 40px; /* Add margin between circle and cards */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  width: 100%; /* Adjust the width of the cards */
+  height: 150px; /* Adjust the height of the cards */
+  border: 1px solid #ccc; /* Gray outline */
+  border-radius: var(--border-radius);
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-image-placeholder {
+  width: 80px; /* Adjust the width of the image placeholder */
+  height: 80px; /* Adjust the height of the image placeholder */
 }
 
 .img-container {
@@ -184,3 +244,20 @@
   max-height:90%; 
   max-width:90%;
 }
+
+.medium-card-text {
+  font-size: 20px;
+  font-weight: bold; /* Make large card text bold */
+  margin-bottom: 3px; /* Add margin between large and small card text */
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+.tiny-card-text {
+  font-size: 14px; /* Set font size for small card text */
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+
+
