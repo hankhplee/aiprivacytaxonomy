@@ -10,19 +10,21 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '6vh',
     height: '100vh',
     width: '100px',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'black',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
     maxHeight: '100vh',
     overflow: 'auto',
+    borderRight: '1px solid gray',
+
   },
   circle: {
     width: '50px',
     height: '50px',
     borderRadius: '50%',
-    backgroundColor: '#ccc',
+    backgroundColor: 'white',
     marginBottom: '10px',
     display: 'flex',
     alignItems: 'center',
@@ -35,7 +37,8 @@ const useStyles = makeStyles((theme) => ({
   },
   circleText: {
     fontSize: '14px',
-    color: '#fff',
+    color: 'black',
+    textDecoration: 'none',
   },
 }));
 

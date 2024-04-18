@@ -3,8 +3,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-right: 200px; /* Add right padding for better spacing */
-    padding-left: 200px;
+    padding-right: 13vw; /* Add right padding for better spacing */
+    padding-left: 13vw;
     display: flex;
     align-items: center; 
     position: fixed; /* Make the navbar stick to the top */

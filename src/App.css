@@ -42,6 +42,19 @@
   align-items: center; /* Align items vertically */
 }
 
+.header-container-3 {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url('images/publication-main-img.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 200px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
 .gradient-overlay {
   position: absolute;
   top: 0;

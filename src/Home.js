@@ -60,9 +60,7 @@ function Home() {
         <div className="gradient-overlay"></div> {/* Gradient overlay */}
         <div className="header-text">
           <div className="content">
-            <h1 className="main-title">Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of
-AI Privacy Risks
-</h1> {/* Increased font size and made bold */}
+            <h1 className="main-title">Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</h1>
             <h2 className="subtitle">How does AI change privacy risks, if at all?</h2> {/* Removed bold */}
             <button className="learn-more-button"> {/* Increased button size and made text bold */}
               Learn More
