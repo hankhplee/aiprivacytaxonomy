@@ -24,8 +24,8 @@ function Publication() {
         {/* <div className="blue-line"></div> */}
         <p><a href='https://arxiv.org/abs/2310.07879'>Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</a></p>
         <p><i><a href='https://chi2024.acm.org/'>CHI Conference on Human Factors in Computing Systems (CHI) 2024</a></i></p>
-        <p>Hao-Ping (Hank) Lee, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, 
-            and Sauvik Das</p>
+        <p><a href='https://hankhplee.com/'>Hao-Ping (Hank) Lee</a>, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, 
+            and <a href='http://sauvik.me/'>Sauvik Das</a></p>
         {/* <div>
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="pdf-link">{pdfUrl}</a>
         </div> */}
