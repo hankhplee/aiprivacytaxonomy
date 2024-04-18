@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <span className="brand">AI Taxonomy Privacy</span>
+        <span className="brand">AI Privacy Taxonomy</span>
       </div>
       <div className="right">
         <Link to="/aiprivacytaxonomy" className="link">Home</Link>
