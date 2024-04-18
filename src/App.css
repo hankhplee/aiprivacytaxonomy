@@ -61,10 +61,10 @@
 }
 
 .main-title {
-  margin: 0;
   color: white;
   font-size: 55px; /* Increased font size */
   font-weight: bold; /* Made bold */
+  padding-right: 500px;
 }
 
 .paragraph-title {
@@ -90,6 +90,8 @@
   cursor: pointer;
   font-size: 18px; /* Increased font size */
   font-weight: bold; /* Made text bold */
+  text-decoration: none; /* Remove underline */
+
 }
 
 .learn-more-button:hover {
@@ -115,8 +117,23 @@
 
 }
 
+.info-paragraph3 {
+  margin-top: 20px; /* Add margin to separate content from header */
+  color: white; /* Add text color */
+  padding-right: 200px;
+
+}
+
+
 .bottom-padding {
   padding-bottom: 600px;
+}
+.top-padding-small {
+  padding-top: 75px;
+}
+
+.bold {
+  font-weight: bold;
 }
 .card-container {
   display: flex;
@@ -124,6 +141,8 @@
   gap: 30px;
   margin-top: 40px; /* Add margin to separate from previous content */
 }
+
+
 
 .card {
   width: 100%; /* Adjust the width of the cards */
@@ -258,6 +277,9 @@
   color: white;
   text-decoration: none; /* Remove underline */
 }
+
+
+
 
 
 

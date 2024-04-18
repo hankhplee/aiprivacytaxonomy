@@ -7,6 +7,7 @@ import App from './App';
 import methodGraphic from './images/methods-graphic.png'
 import cohensKappa from './images/cohens-kappa.png'
 
+import GoToTop from './GoToTop'
 
 
 
@@ -49,7 +50,7 @@ const Methods = () => {
         </div>
       </div>
 
-
+    <GoToTop/>
     </div>
   );
 }

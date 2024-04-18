@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'fixed',
     top: 0,
     left: 0,
-    marginTop: 35,
+    marginTop: '6vh',
     height: '100vh',
     width: '100px',
     backgroundColor: '#f0f0f0',
@@ -15,10 +15,12 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    maxHeight: '100vh',
+    overflow: 'auto',
   },
   circle: {
-    width: '50px', // Increased circle size
-    height: '50px', // Increased circle size
+    width: '50px',
+    height: '50px',
     borderRadius: '50%',
     backgroundColor: '#ccc',
     marginBottom: '10px',
@@ -26,27 +28,57 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     cursor: 'pointer',
-    transition: 'all 0.3s ease-in-out', // Smooth transition
+    transition: 'all 0.3s ease-in-out',
     '&:hover': {
       backgroundColor: '#999',
     },
   },
   circleText: {
-    fontSize: '14px', // Increased text size
+    fontSize: '14px',
     color: '#fff',
   },
 }));
+
+const fileNames = [
+  'exposure',
+  'distortion',
+  'disclosure',
+  'increased accessibility',
+  'surveillance',
+  'intrusion',
+  'identification',
+  'aggregation',
+  'phrenology/physiognomy',
+  'secondary use',
+  'exclusion',
+  'insecurity'
+];
+
+const filePaths = [
+  'exposure',
+  'distortion',
+  'disclosure',
+  'increased_accessibility',
+  'surveillance',
+  'intrusion',
+  'identification',
+  'aggregation',
+  'phrenology_physiognomy',
+  'secondary_use',
+  'exclusion',
+  'insecurity'
+];
 
 const Sidebar = () => {
   const classes = useStyles();
 
   return (
-    <Box className={classes.sidebar}>
+    <Box className={classes.sidebar} >
       {[...Array(12).keys()].map((index) => (
-        <Tooltip key={index} title={`Item ${index + 1}`} placement="right">
-          <div className={classes.circle}>
+        <Tooltip key={index} title={`${fileNames[index]}`} placement="right">
+          <a href={`/${filePaths[index]}`} className={classes.circle}>
             <Typography className={classes.circleText}>{index + 1}</Typography>
-          </div>
+          </a>
         </Tooltip>
       ))}
     </Box>

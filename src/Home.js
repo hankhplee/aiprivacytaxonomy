@@ -12,38 +12,41 @@ import DataCollectionIcon from './images/data-collection-icon.png';
 import InvasionIcon from './images/invasion-icon.png';
 import DataProcessingIcon from './images/data-processing-icon.png';
 
+import GoToTop from './GoToTop'
+
+
 const columnData = [
     {
       circleImage: DataDisseminationIcon,
       cards: [
-        { id: 1, title: 'Exposure', content: 'Content 1' },
-        { id: 2, title: 'Distortion', content: 'Content 2' },
-        { id: 3, title: 'Disclosure', content: 'Content 3' },
-        { id: 4, title: 'Increased Accessibility', content: 'Content 4' }
+        { id: 1, title: 'Exposure', content: 'revealing sensitive private information' },
+        { id: 2, title: 'Distortion', content: 'disseminating false or misleading information about people' },
+        { id: 3, title: 'Disclosure', content: 'revealing and improperly sharing data of individuals' },
+        { id: 4, title: 'Increased Accessibility', content: 'easier access for a wider audience of people to sensitive information' }
 
       ]
     },
     {
       circleImage: DataCollectionIcon,
       cards: [
-        { id: 5, title: 'Surveillance', content: 'Content 5' }
+        { id: 5, title: 'Surveillance', content: 'watching, listening to, or recording your activities' }
       ]
     },
     {
       circleImage: InvasionIcon,
       cards: [
-        { id: 6, title: 'Intrusion', content: 'Content 6' }
+        { id: 6, title: 'Intrusion', content: 'actions that disturb one’s solitude in physical space' }
       ]
     },
     {
       circleImage: DataProcessingIcon,
       cards: [
-        { id: 7, title: 'Identification', content: 'Content 7' },
-        { id: 8, title: 'Aggregation', content: 'Content 8' },
-        { id: 9, title: 'Phrenology / Physiognomy', content: 'Content 9' },
-        { id: 10, title: 'Secodnary Use', content: 'Content 10' },
-        { id: 11, title: 'Exclusion', content: 'Content 10' },
-        { id: 12, title: 'Insecurity', content: 'Content 10' }
+        { id: 7, title: 'Identification', content: 'linking specific data points to your identity' },
+        { id: 8, title: 'Aggregation', content: 'combining data about you to make inferences beyond what is captured in data' },
+        { id: 9, title: 'Phrenology / Physiognomy', content: 'inferring social and emotional attributes from physical attributes.' },
+        { id: 10, title: 'Secondary Use', content: 'using personal data collected for one purpose for a different purpose without consent' },
+        { id: 11, title: 'Exclusion', content: 'failure to provide end-users with notice and control over how their data is being used' },
+        { id: 12, title: 'Insecurity', content: 'carelessness in protecting collected personal data due to faulty practices' }
       ]
     }
   ];
@@ -57,8 +60,10 @@ function Home() {
         <div className="gradient-overlay"></div> {/* Gradient overlay */}
         <div className="header-text">
           <div className="content">
-            <h1 className="main-title">AI Privacy Taxonomy Project</h1> {/* Increased font size and made bold */}
-            <h2 className="subtitle">An analysis of deepfakes, surveillance, phrenology, and more</h2> {/* Removed bold */}
+            <h1 className="main-title">Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of
+AI Privacy Risks
+</h1> {/* Increased font size and made bold */}
+            <h2 className="subtitle">How does AI change privacy risks, if at all?</h2> {/* Removed bold */}
             <button className="learn-more-button"> {/* Increased button size and made text bold */}
               Learn More
             </button>
@@ -71,7 +76,15 @@ function Home() {
       <div className="info-paragraph">
         <h1 className="paragraph-title">The Problem</h1> {/* Increased font size and made bold */}
         <div className="blue-line"></div> {/* Blue line */}
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra sit amet sapien vel facilisis. Proin at turpis vel leo tincidunt luctus. Proin egestas erat at dui sagittis posuere. Sed id velit ac justo cursus maximus. Integer malesuada quis felis at vulputate. Morbi lobortis, diam vel lobortis mollis, dui ligula commodo tortor, nec tincidunt neque justo quis metus.</p> {/* Paragraph content */}
+        <p>Privacy is a key principle for developing ethical AI technologies, but how does 
+          including AI technologies in products and services change privacy risks? We constructed 
+          a taxonomy of AI privacy risks by analyzing 321 documented AI privacy incidents. 
+          We codified how the unique capabilities and requirements of AI technologies described 
+          in those incidents generated new privacy risks, exacerbated known ones, or otherwise did 
+          not meaningfully alter the risk. We present 12 high-level privacy risks that AI technologies 
+          either newly created (e.g., exposure risks from deepfake pornography) or exacerbated 
+          (e.g., surveillance risks from collecting training data). 
+</p> {/* Paragraph content */}
 
          {/* Card container */}
         <div className="card-container">
@@ -79,7 +92,7 @@ function Home() {
             <div className="card">
                 <div className="left-content">
                 <div className="large-card-text">321</div>
-                <div className="small-card-text">Documents Analyzed</div>
+                <div className="small-card-text">real-world AI incidents analyzed</div>
                 </div>
                 <div className="right-content">
                     <img className="card-image-placeholder" src={BookIcon}></img>
@@ -89,8 +102,8 @@ function Home() {
             {/* Card 2 */}
             <div className="card">
                 <div className="left-content">
-                <div className="large-card-text">321</div>
-                <div className="small-card-text">Documents Analyzed</div>
+                <div className="large-card-text">12</div>
+                <div className="small-card-text">types of AI privacy risks</div>
                 </div>
                 <div className="right-content">
                     <img className="card-image-placeholder" src={BookIcon}></img>
@@ -100,8 +113,8 @@ function Home() {
             {/* Card 3 */}
             <div className="card">
                 <div className="left-content">
-                <div className="large-card-text">321</div>
-                <div className="small-card-text">Documents Analyzed</div>
+                <div className="large-card-text">93%</div>
+                <div className="small-card-text">of the incidents, AI either exacerbates a known risk or creates a new risk</div>
                 </div>
                 <div className="right-content">
                 <img className="card-image-placeholder" src={BookIcon}></img>
@@ -111,9 +124,15 @@ function Home() {
       </div>
 
       <div className="info-paragraph">
-        <h1 className="paragraph-title">Types of AI Privacy Risks</h1> {/* Increased font size and made bold */}
+        <h1 className="paragraph-title">Taxonomy of AI Privacy Risks</h1> {/* Increased font size and made bold */}
         <div className="blue-line"></div> {/* Blue line */}
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra sit amet sapien vel facilisis. Proin at turpis vel leo tincidunt luctus. Proin egestas erat at dui sagittis posuere. Sed id velit ac justo cursus maximus. Integer malesuada quis felis at vulputate. Morbi lobortis, diam vel lobortis mollis, dui ligula commodo tortor, nec tincidunt neque justo quis metus.</p> {/* Paragraph content */}
+        <p>We introduce a taxonomy of AI privacy risks: i.e., privacy risks that are created and/or 
+          exacerbated by the incorporation of AI technologies into products and services. We found 
+          that AI technologies create new instantiations of the known privacy risks 
+          (e.g., generative AI can create new types of distortion), create a new category of risk 
+          before the modern advances of AI (e.g., resurging phrenology/physiognomy), and 
+          exacerbate many of the known risks (e.g., AI technologies can more robustly identify 
+          individuals from low fidelity data sources).</p> {/* Paragraph content */}
 
 
         <div className="img-container">
@@ -151,6 +170,8 @@ function Home() {
           </div>
       ))}
     </div>
+    
+    <GoToTop/>
     </div>
   );
 }

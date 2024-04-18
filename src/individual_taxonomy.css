@@ -1,0 +1,55 @@
+/* Define new classes for styling the images within the new cards */
+.news-card {
+    width: calc(50% - 15px);
+    height: auto; /* Set height of the card */
+    border: 1px solid #ccc; /* Gray outline */
+    border-radius: 20px; /* Apply border radius */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    margin-top: 40px; /* Add margin to separate from previous content */
+    padding: 20px; /* Add padding inside the cards */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Distribute space between children */
+  }
+
+  .main-individual-padding {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 50px;
+  }
+
+  .news-image > img {
+    width: 100%; /* Make images fill their containers */
+    height: 300px; /* Set height of image placeholder */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire container */
+    border-radius: 10px; /* Apply border radius to the image */
+  }
+
+
+  .card-container-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px; /* Add margin to separate from previous content */
+  }
+
+  .news-button {
+    width: fit-content;
+  }
+
+  @media (max-width: 900px) {
+    .news-card {
+        width: 100%; /* Set width to 100% at a certain breakpoint */
+    }
+
+    .card-container-news {
+        display: block; /* Unset the flex container for card container */
+    }
+
+
+}
+
+
+
+
+  
