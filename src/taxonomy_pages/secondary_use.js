@@ -7,7 +7,7 @@ import '../individual_taxonomy.css';
 
 // Assuming you have imported necessary images for the cards
 import CardImage1 from '../images/secondary-img-1.webp';
-import CardImage2 from '../images/secondary-img-2.avif';
+import CardImage2 from '../images/secondary-img-2.webp';
 import CardImage3 from '../images/secondary-img-3.webp';
 
 
@@ -49,11 +49,11 @@ const SecondaryUse = () => {
                 <img src={CardImage2} alt="Card 2" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Police Illeagly Using Data From a COVID-19 Tracking App </h2>
-                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Luca, an app that was used for contact tracing during the COVID-19 pandemic in Germany, was found to re-purpose personal data, such as location data, to support law enforcement by "tracking down wit- nesses to a potential crime." </p>
+                <h2 className="medium-card-text">Amazon Workplace Surveillance with AWS Panorama</h2>
+                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Amazon Panorama stated it would be used to "evaluate manufacturing quality, identify bottlenecks in industrial processes, and monitor workplace safety and security." However, it was later discovered that the system was used as a productivity monitoring tool. </p>
               </div>
             </div>
-            <a href="https://www.dailymail.co.uk/news/article-10391567/German-police-use-Covid-tracking-data-track-witnesses-investigation.html" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
+            <a href="https://mashable.com/article/amazon-aws-panorama-worker-customer-tracking-technology-smart-cameras?europe=true" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
           </div>
 
           <div className="news-card">
