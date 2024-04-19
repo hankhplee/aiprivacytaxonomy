@@ -21,8 +21,8 @@ const Insecurity = () => {
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="bottom-padding main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Insecurity</h1>
-        <h2 className="subtitle">Insecurity refers to carelessness in protecting collected personal data from leaks and improper access due to faulty data storage and data practices</h2> {/* Adjusted margin */}
-        <h1 className="subtitle bold top-padding-small">How is it Related to AI?</h1>
+        <h2 className="subtitle">carelessness in protecting collected personal data from leaks and improper access due to faulty data storage and data practices</h2> {/* Adjusted margin */}
+        <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}
         <p className="info-paragraph3">
         AI exacerbates insecurity risks by introducing new vulnerabilities when incorporating AI and its associated data pipeline in the products.
@@ -36,7 +36,7 @@ const Insecurity = () => {
                 <img src={CardImage1} alt="Card 1" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Lee Luda: a chatbot trained on real-world text conversations </h2>
+                <h2 className="medium-card-text">Lee Luda: a Chatbot Trained on Real-World Text Conversations </h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '50px' }}>Lee Luda, a conversational AI chatbot trained on user data, was found to inadvertently expose names, nicknames, and home addresses of the individuals whose data it was trained on.</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Insecurity = () => {
                 <img src={CardImage2} alt="Card 2" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Leaked photos taken by Roomba robot vacuums</h2>
+                <h2 className="medium-card-text">Leaked Photos Taken by Roomba Robot Vacuums</h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Gig workers, hired by iRobot to annotate audio, photo, and video data from their household Roomba robot vacuums for AI training, were found to have leaked raw and sensitive photos online. </p>
               </div>
             </div>
@@ -63,8 +63,8 @@ const Insecurity = () => {
                 <img src={CardImage3} alt="Card 3" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Google Allo read users’ chat content</h2>
-                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Allo, a messaging app that Google first launched in 2017, included an AI virtual assistant and automatic replies. The messenger was not end-to-end encrypted, allowing for AI models developed by Google to “read” users’ chat content and personalize services for them.</p>
+                <h2 className="medium-card-text">Google Allo Read Users' Chat Content</h2>
+                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Allo, a messaging app that Google first launched in 2017, included an AI virtual assistant and automatic replies. The messenger was not end-to-end encrypted, allowing for AI models developed by Google to "read" users' chat content and personalize services for them.</p>
               </div>
             </div>
             <a href="https://money.cnn.com/2017/10/25/technology/business/google-allo-facebook-m-offensive-responses/index.html" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>

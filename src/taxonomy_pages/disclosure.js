@@ -19,8 +19,8 @@ const Disclosure = () => {
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="bottom-padding main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Disclosure</h1>
-        <h2 className="subtitle">Surveillance refers to watching, listening to, or recording of an individual’s activities.</h2> {/* Adjusted margin */}
-        <h1 className="subtitle bold top-padding-small">How is it Related to AI?</h1>
+        <h2 className="subtitle">revealing and improperly sharing data of individuals</h2> {/* Adjusted margin */}
+        <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}
         <p className="info-paragraph3">
         AI exacerbates surveillance risks by increasing the scale and ubiquity of personal data collected.

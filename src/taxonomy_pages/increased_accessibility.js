@@ -21,8 +21,8 @@ const IncreasedAccessibility = () => {
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="bottom-padding main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Increased Accessibility</h1>
-        <h2 className="subtitle">Increased Accessibility refers to making it easier for a wider audience of people to access potentially sensitive information</h2> {/* Adjusted margin */}
-        <h1 className="subtitle bold top-padding-small">How is it Related to AI?</h1>
+        <h2 className="subtitle">making it easier for a wider audience of people to access potentially sensitive information</h2> {/* Adjusted margin */}
+        <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}
         <p className="info-paragraph3">
         AI exacerbates the scale of increased accessibility risks via publicizing largescale datasets that contain personal information, for the use of building and improving AI/ML models.
@@ -36,7 +36,7 @@ const IncreasedAccessibility = () => {
                 <img src={CardImage1} alt="Card 1" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">OkCupid facial dataset sharing </h2>
+                <h2 className="medium-card-text">OkCupid Facial Dataset Sharing </h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '50px' }}>OkCupid dataset contained personal information such as users’ location, demographics, sexual preferences, and drug use, and was uploaded to Open Science Framework to facilitate research on modeling dating behaviors. </p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const IncreasedAccessibility = () => {
                 <img src={CardImage2} alt="Card 2" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Secretly collected student footages were made public for research purposes</h2>
+                <h2 className="medium-card-text">Secretly Collected Student Footages Were Made Public For Research Purposes</h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>The UnConstrained College Students Dataset (UCSD), which includes 16,000 photos of about 1,700 University of Colorado, Colorado Springs students was available for public use for research purposes (e.g., developing recognition technology). </p>
               </div>
             </div>
@@ -63,7 +63,7 @@ const IncreasedAccessibility = () => {
                 <img src={CardImage3} alt="Card 2" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">People in Photo Albums (PIPA) dataset</h2>
+                <h2 className="medium-card-text">People in Photo Albums (PIPA) Dataset</h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>The People in Photo Albums (PIPA) dataset comprises facial photographs collected from semi-public images was curated to facilitate the recognition of individuals' identities in unconstrained photo album settings. </p>
               </div>
             </div>

@@ -22,8 +22,8 @@ const Intrusion = () => {
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="bottom-padding main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Intrusion</h1>
-        <h2 className="subtitle">Intrusion refers to actions that disturb one’s solitude in physical space</h2> {/* Adjusted margin */}
-        <h1 className="subtitle bold top-padding-small">How is it Related to AI?</h1>
+        <h2 className="subtitle">actions that disturb one’s solitude in physical space</h2> {/* Adjusted margin */}
+        <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}
         <p className="info-paragraph3">
         AI exacerbates the scale and ubiquity of intrusion risks via enabling centralized and/or ubiquitous surveillance infrastructures.
@@ -37,8 +37,8 @@ const Intrusion = () => {
                 <img src={CardImage1} alt="Card 1" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Ring: a smart doorbell  </h2>
-                <p className="tiny-card-text" style={{ paddingBottom: '50px' }}>Ring, a smart doorbell that enables homeowners to monitor activities and conversations near where the doorbell is installed has raised concern due to “the devices’ excessive ability” to capture data of an individual’s neighbors. </p>
+                <h2 className="medium-card-text">Ring: a Smart Doorbell  </h2>
+                <p className="tiny-card-text" style={{ paddingBottom: '50px' }}>Ring, a smart doorbell that enables homeowners to monitor activities and conversations near where the doorbell is installed has raised concern due to "the devices' excessive ability" to capture data of an individual's neighbors. </p>
               </div>
             </div>
             <a href="https://www.theguardian.com/uk-news/2021/oct/14/amazon-asks-ring-owners-to-respect-privacy-after-court-rules-usage-broke-law" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
@@ -50,7 +50,7 @@ const Intrusion = () => {
                 <img src={CardImage2} alt="Card 2" />
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
-                <h2 className="medium-card-text">Cooler Screens: Personalized Real-Time advertisements on retailer's Refrigerated Doors</h2>
+                <h2 className="medium-card-text">Cooler Screens: Personalized Real-Time Advertisements on Retailer's Refrigerated Doors</h2>
                 <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Walgreens uses digital screens in stores with front-facing sensors to show customers personalized adevertisement. </p>
               </div>
             </div>
@@ -65,13 +65,13 @@ const Intrusion = () => {
               </div>
               <div className="card-content" style={{ paddingTop: '15px' }}>
                 <h2 className="medium-card-text">Amazon's Halo Fitness Tracker: Discover More About Yourself</h2>
-                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Amazon’s Halo fitness tracker uses AI to analyze a user’s conversations to highlight when and how often that user spoke in a manner that was indicative of their being “happy, discouraged, or skeptical” </p>
+                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>Amazon's Halo fitness tracker uses AI to analyze a user's conversations to highlight when and how often that user spoke in a manner that was indicative of their being "happy, discouraged, or skeptical." </p>
               </div>
             </div>
             <a href="https://appleinsider.com/articles/20/12/02/review-amazon-halo-is-incredibly-invasive-but-helps-you-learn-about-yourself" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
           </div>
 
-          <div className="news-card">
+          {/* <div className="news-card">
             <div className="news-card-top">
 
               <div className="news-image">
@@ -83,7 +83,7 @@ const Intrusion = () => {
               </div>
             </div>
             <a href="https://www.sixthtone.com/news/1003759" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
-          </div>
+          </div> */}
         </div>
       </div>
       <GoToTop/>
