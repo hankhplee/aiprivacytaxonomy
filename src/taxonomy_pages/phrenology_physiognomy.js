@@ -3,6 +3,8 @@ import Navbar from '../navbar';
 import Sidebar from './sidebar'; // Import the Sidebar component
 import '../App.css';
 import '../individual_taxonomy.css';
+import { useEffect } from 'react';
+
 
 
 // Assuming you have imported necessary images for the cards
@@ -15,6 +17,9 @@ import GoToTop from '../GoToTop'
 
 
 const PhrenologyPhysiognomy = () => {
+    useEffect(() => {
+        document.title = 'AI Privacy Risk | Phrenology Physiognomy';
+      }, []);
   return (
     <div className="App">
       <Navbar />

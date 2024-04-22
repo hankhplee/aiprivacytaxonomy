@@ -3,6 +3,8 @@ import Navbar from '../navbar';
 import Sidebar from './sidebar'; // Import the Sidebar component
 import '../App.css';
 import '../individual_taxonomy.css';
+import { useEffect } from 'react';
+
 
 
 // Assuming you have imported necessary images for the cards
@@ -11,11 +13,16 @@ import CardImage2 from '../images/disclosure-img-2.webp';
 import CardImage3 from '../images/disclosure-img-3.avif';
 import CardImage4 from '../images/disclosure-img-4.webp';
 import CardImage5 from '../images/disclosure-img-5.webp';
+import CardImage6 from '../images/disclosure-img-6.jpg';
+
 
 import GoToTop from '../GoToTop'
 
 
 const Disclosure = () => {
+    useEffect(() => {
+        document.title = 'AI Privacy Risk | Disclosure';
+      }, []);
   return (
     <div className="App">
       <Navbar />
@@ -73,10 +80,8 @@ const Disclosure = () => {
 
         </div>
 
-        <h1 className="subtitle bold top-padding-small">How does AI influence the creation risk?</h1>
-        <div className="blue-line"></div> {/* Blue line */}
-        <p className="info-paragraph3">
-        AI creates new types of disclosure risks by inferring additional information beyond what is explicitly captured in the raw data.
+        <p className="info-paragraph3 top-padding-small">
+        AI also creates new types of disclosure risks by inferring additional information beyond what is explicitly captured in the raw data.
         </p>
 
         {/* Two new cards */}
@@ -105,6 +110,20 @@ const Disclosure = () => {
               </div>
             </div>
             <a href="https://www.bbc.com/news/technology-58109748" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
+          </div>
+
+          <div className="news-card">
+            <div className="news-card-top">
+
+              <div className="news-image">
+                <img src={CardImage6} alt="Card 6" />
+              </div>
+              <div className="card-content" style={{ paddingTop: '15px' }}>
+                <h2 className="medium-card-text">Beijing Subway passenger credit system</h2>
+                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>In Beijing, passengers with poor social credit scores will be prohibited from using the facial recognition security check service at subway stations. </p>
+              </div>
+            </div>
+            <a href="https://www.bloomberg.com/news/articles/2019-11-25/mass-surveillance-reaches-down-into-beijing-s-subway-network" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
           </div>
         </div>
       </div>

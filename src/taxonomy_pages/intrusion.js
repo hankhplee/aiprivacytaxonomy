@@ -3,6 +3,8 @@ import Navbar from '../navbar';
 import Sidebar from './sidebar'; // Import the Sidebar component
 import '../App.css';
 import '../individual_taxonomy.css';
+import { useEffect } from 'react';
+
 
 
 // Assuming you have imported necessary images for the cards
@@ -16,6 +18,9 @@ import GoToTop from '../GoToTop'
 
 
 const Intrusion = () => {
+    useEffect(() => {
+        document.title = 'AI Privacy Risk | Intrusion';
+      }, []);
   return (
     <div className="App">
       <Navbar />

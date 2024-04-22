@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import './publication.css';
 import './App.css';
+import { useEffect } from 'react';
 
 
 function Publication() {
   const pdfUrl = "https://arxiv.org/pdf/2310.07879.pdf";
+  useEffect(() => {
+    document.title = 'AI Privacy Risk | Publication';
+  }, []);
 
   return (
     <div className="App">

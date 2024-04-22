@@ -50,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '90%',
     maxHeight: '90%',
   },
+  tooltipText: {
+    fontSize: '20px',
+  },
 }));
 
 const fileNames = [
@@ -103,7 +106,7 @@ const Sidebar = () => {
   return (
     <Box className={classes.sidebar}>
       {fileImages.map((icon, index) => (
-        <Tooltip key={index} title={`${fileNames[index]}`} placement="right">
+        <Tooltip key={index} title={`${fileNames[index]}`} classes={{ tooltip: classes.tooltipText }} placement="right">
           <a href={`/${filePaths[index]}`} className={classes.circle}>
             <img src={icon} alt={`${fileNames[index]} icon`} className={classes.iconImg} />
           </a>

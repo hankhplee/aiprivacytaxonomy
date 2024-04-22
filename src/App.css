@@ -4,6 +4,12 @@
 
 }
 
+a {
+  color: var(--primary-color); /* Change to your desired color */
+  text-decoration: none;
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -286,14 +292,14 @@
   font-weight: bold; /* Make large card text bold */
   margin-bottom: 3px; /* Add margin between large and small card text */
   color: white;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
   padding-bottom: 5px;
 }
 
 .tiny-card-text {
   font-size: 14px; /* Set font size for small card text */
   color: white;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
 }
 
 

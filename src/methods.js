@@ -1,5 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
+import { useEffect } from 'react';
+
 
 import './App.css';
 import Navbar from './navbar.js';
@@ -9,11 +11,15 @@ import App from './App';
 import methodGraphic from './images/methods-graphic.png'
 import cohensKappa from './images/cohens-kappa.png'
 
+
 import GoToTop from './GoToTop'
 
 
 
 const Methods = () => {
+  useEffect(() => {
+    document.title = 'AI Privacy Risk | Methods';
+  }, []);
   const scrollRef = useRef(null);
 
   const handleLearnMoreClick = () => {
@@ -57,7 +63,7 @@ const Methods = () => {
         <br/>
         <p>To validate the inter-rater reliability, the two coders independently coded 65 cases (20% of our overall analysis pool) and reached a high agreement, with Cohen's Kappa larger than 0.8 on every type of risk and averaging 0.94 on all types of risks. </p>
         <div className="img-container">
-          <img style={{maxHeight: "50%", maxWidth: "50%"}} src={cohensKappa} alt="Cohens Kappa"/>
+          <img style={{maxHeight: "35%", maxWidth: "35%"}} src={cohensKappa} alt="Cohens Kappa"/>
         </div>
       </div>
 
