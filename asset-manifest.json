@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aiprivacytaxonomy/static/css/main.1bad71be.css",
-    "main.js": "/aiprivacytaxonomy/static/js/main.e7156fc1.js",
+    "main.css": "/aiprivacytaxonomy/static/css/main.529f7381.css",
+    "main.js": "/aiprivacytaxonomy/static/js/main.b62f4652.js",
     "static/js/592.8da0831d.chunk.js": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js",
     "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.68908027226253548d2d.jpg",
     "static/media/identification-img-3.png": "/aiprivacytaxonomy/static/media/identification-img-3.b1f705b5ce1d846e8960.png",
@@ -9,6 +9,7 @@
     "static/media/increased-accessibility-img-2.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-2.7fa06bd0d3d79f78cb23.webp",
     "static/media/data-flow-img.png": "/aiprivacytaxonomy/static/media/data-flow-img.d4e1567a1abfebe3a2ee.png",
     "static/media/ai-brain.jpg": "/aiprivacytaxonomy/static/media/ai-brain.51f08d8988cf7d39c658.jpg",
+    "static/media/publication-pdf-img.png": "/aiprivacytaxonomy/static/media/publication-pdf-img.7375e5b24e3d3405d630.png",
     "static/media/china_police.jpg": "/aiprivacytaxonomy/static/media/china_police.dde66d73584ecc18f92e.jpg",
     "static/media/identification-img-2.webp": "/aiprivacytaxonomy/static/media/identification-img-2.1ba63db5176cd4a3af00.webp",
     "static/media/intrusion-img-4.jpg": "/aiprivacytaxonomy/static/media/intrusion-img-4.b5740b85929c733c6b07.jpg",
@@ -67,12 +68,12 @@
     "static/media/aggregation-img-3.webp": "/aiprivacytaxonomy/static/media/aggregation-img-3.e2df6adf638ac6309638.webp",
     "static/media/increased-accessibility-img-1.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-1.dd7a5bacead01771d760.webp",
     "index.html": "/aiprivacytaxonomy/index.html",
-    "main.1bad71be.css.map": "/aiprivacytaxonomy/static/css/main.1bad71be.css.map",
-    "main.e7156fc1.js.map": "/aiprivacytaxonomy/static/js/main.e7156fc1.js.map",
+    "main.529f7381.css.map": "/aiprivacytaxonomy/static/css/main.529f7381.css.map",
+    "main.b62f4652.js.map": "/aiprivacytaxonomy/static/js/main.b62f4652.js.map",
     "592.8da0831d.chunk.js.map": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bad71be.css",
-    "static/js/main.e7156fc1.js"
+    "static/css/main.529f7381.css",
+    "static/js/main.b62f4652.js"
   ]
 }
