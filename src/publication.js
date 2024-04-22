@@ -29,10 +29,10 @@ function Publication() {
         {/* <div>
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="pdf-link">{pdfUrl}</a>
         </div> */}
-        <div>
-          <p>
+        <div className="bibtex-block">
+          <div className="bibtex">
           {"@inproceedings{lee2024aiprivacytaxonomy, title={Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks}, author={Lee, Hao-Ping (Hank) and Yang, Yu-Ju and von Davier, Thomas Serban and Forlizzi, Jodi and Das, Sauvik}, booktitle = {{{CHI Conference}} on {{Human Factors}} in {{Computing Systems}}}, year={2024} }"}
-          </p>
+          </div>
         </div>
         <div className = "pdf-container">
           {pdfUrl && (

@@ -27,3 +27,22 @@
   .pdf-link {
     color: white;
   }
+
+  .bibtex-block .bibtex {
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 0.85em;
+    line-height: 1.45;
+    overflow-x: auto;
+    white-space: pre;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    color: rgb(36, 41, 47);
+    background-color: lightgray;
+}
+
+.bibtex-block {
+  display: flex;
+  grid-column: text-start / text-end;
+  margin-top: 10px;
+  position: relative;
+}

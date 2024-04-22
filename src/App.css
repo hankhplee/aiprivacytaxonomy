@@ -31,7 +31,7 @@
 
 .header-container2 {
   position: relative;
-  height: 600px;
+  height: 500px;
   width: 100%;
   background-image: url('images/ai-brain.jpg');
   background-size: cover;
@@ -44,7 +44,7 @@
 
 .header-container-3 {
   position: relative;
-  height: 600px;
+  height: 500px;
   width: 100%;
   background-image: url('images/publication-main-img.jpg');
   background-size: cover;
@@ -171,6 +171,10 @@
 
 }
 
+.left-content {
+  padding-right: 5px;
+}
+
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(21, 183, 188, 0.5); /* Add outer glow effect */
@@ -227,8 +231,8 @@
 }
 
 .circle-image img {
-  max-width: 120px;
-  max-height: 500px;
+  max-width: 200px;
+  max-height: 700px;
 
 }
 
@@ -283,6 +287,7 @@
   margin-bottom: 3px; /* Add margin between large and small card text */
   color: white;
   text-decoration: none; /* Remove underline */
+  padding-bottom: 5px;
 }
 
 .tiny-card-text {

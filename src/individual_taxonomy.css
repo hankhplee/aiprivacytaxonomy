@@ -1,6 +1,6 @@
 /* Define new classes for styling the images within the new cards */
 .news-card {
-    width: calc(50% - 15px);
+    width: calc(32% - 15px);
     height: auto; /* Set height of the card */
     border: 1px solid #ccc; /* Gray outline */
     border-radius: 20px; /* Apply border radius */

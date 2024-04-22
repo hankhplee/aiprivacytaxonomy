@@ -1,4 +1,6 @@
 import React from 'react';
+import { useRef } from 'react';
+
 import './App.css';
 import Navbar from './navbar.js';
 import { Route, Routes } from 'react-router-dom';
@@ -12,6 +14,11 @@ import GoToTop from './GoToTop'
 
 
 const Methods = () => {
+  const scrollRef = useRef(null);
+
+  const handleLearnMoreClick = () => {
+    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <div className="App">
       <div className="header-container2">
@@ -20,7 +27,7 @@ const Methods = () => {
           <div className="content">
             <h1 className="main-title">Methods</h1> {/* Increased font size and made bold */}
             {/* <h2 className="subtitle">The strategies used to generate important AI-related insights</h2> Removed bold */}
-            <button className="learn-more-button"> {/* Increased button size and made text bold */}
+            <button className="learn-more-button" onClick={handleLearnMoreClick}> {/* Increased button size and made text bold */}
               Learn More
             </button>
           </div>
@@ -28,6 +35,8 @@ const Methods = () => {
       </div>
       {/* End of header-container */}
 
+      <div ref={scrollRef}>
+      </div>
       {/* Separate content container */}
       <div className="info-paragraph">
         <h1 className="paragraph-title">Constructing the Taxonomy of AI Privacy Risks Based on AIAAIC</h1> {/* Increased font size and made bold */}

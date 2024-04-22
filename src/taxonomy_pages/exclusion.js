@@ -8,6 +8,8 @@ import '../individual_taxonomy.css';
 // Assuming you have imported necessary images for the cards
 import CardImage1 from '../images/exclusion-img-1.webp';
 import CardImage2 from '../images/exclusion-img-2.webp';
+import CardImage3 from '../images/exclusion-img-3.jpg';
+
 
 import GoToTop from '../GoToTop'
 
@@ -52,6 +54,20 @@ const Exclusion = () => {
               </div>
             </div>
             <a href="https://www.buzzfeednews.com/article/ryanmac/clearview-ai-fbi-ice-global-law-enforcement" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
+          </div>
+
+          <div className="news-card">
+            <div className="news-card-top">
+
+              <div className="news-image">
+                <img src={CardImage3} alt="Card 3" />
+              </div>
+              <div className="card-content" style={{ paddingTop: '15px' }}>
+                <h2 className="medium-card-text">LAION Dataset: Use of Private Medical Images for Training</h2>
+                <p className="tiny-card-text" style={{ paddingBottom: '20px' }}>LAION-5B is a large, openly accessible image-text dataset for training ML models. However, a person found that her private medical photographs were referenced in the public dataset, and suspected that "someone stole the image from my deceased doctor’s files and it ended up somewhere online, and then it was scraped into this dataset." </p>
+              </div>
+            </div>
+            <a href="https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/" target="_blank" rel="noopener noreferrer" className="learn-more-button news-button">Learn More</a>
           </div>
         </div>
       </div>
