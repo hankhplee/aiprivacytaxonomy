@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {
   RouterProvider,
-  createBrowserRouter
+  createHashRouter
 } from 'react-router-dom'
 
 import App from './App'
@@ -27,7 +27,7 @@ import Insecurity from './taxonomy_pages/insecurity'
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
       path: '/',
       element: <App />,

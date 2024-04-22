@@ -107,7 +107,7 @@ const Sidebar = () => {
     <Box className={classes.sidebar}>
       {fileImages.map((icon, index) => (
         <Tooltip key={index} title={`${fileNames[index]}`} classes={{ tooltip: classes.tooltipText }} placement="right">
-          <a href={`/${filePaths[index]}`} className={classes.circle}>
+          <a href={`/aiprivacytaxonomy#/${filePaths[index]}`} className={classes.circle}>
             <img src={icon} alt={`${fileNames[index]} icon`} className={classes.iconImg} />
           </a>
         </Tooltip>

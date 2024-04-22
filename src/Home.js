@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 
 import './App.css';
 import Navbar from './navbar.js';
@@ -70,6 +70,9 @@ const columnData = [
 
 
 function Home() {
+  useEffect(() => {
+    document.title = 'AI Privacy Risk | Home';
+  }, []);
   const scrollRef = useRef(null);
 
   const handleLearnMoreClick = () => {
@@ -116,7 +119,6 @@ function Home() {
                 <div className="small-card-text">real-world AI incidents analyzed</div>
                 </div>
                 <div className="right-content">
-                    <img className="card-image-placeholder" src={BookIcon}></img>
                 </div>
             </div>
 
@@ -127,7 +129,6 @@ function Home() {
                 <div className="small-card-text">types of AI privacy risks</div>
                 </div>
                 <div className="right-content">
-                    <img className="card-image-placeholder" src={BookIcon}></img>
                 </div>
             </div>
 
@@ -138,7 +139,6 @@ function Home() {
                 <div className="small-card-text">of the incidents, AI either exacerbates a known risk or creates a new risk</div>
                 </div>
                 <div className="right-content">
-                <img className="card-image-placeholder" src={BookIcon}></img>
                 </div>
             </div>
         </div>
