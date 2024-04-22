@@ -174,7 +174,18 @@ a {
   justify-content: space-between;
   align-items: center;
   transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
 
+.card-no-animation {
+  width: 100%; /* Adjust the width of the cards */
+  height: 200px;
+  border: 1px solid #ccc; /* Gray outline */
+  padding: 40px; /* Add padding inside the cards */
+  border-radius: var(--border-radius);
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-content {

@@ -113,7 +113,7 @@ function Home() {
          {/* Card container */}
         <div className="card-container">
             {/* Card 1 */}
-            <div className="card">
+            <div className="card-no-animation">
                 <div className="left-content">
                 <div className="large-card-text">321</div>
                 <div className="small-card-text">real-world AI incidents analyzed</div>
@@ -123,7 +123,7 @@ function Home() {
             </div>
 
             {/* Card 2 */}
-            <div className="card">
+            <div className="card-no-animation">
                 <div className="left-content">
                 <div className="large-card-text">12</div>
                 <div className="small-card-text">types of AI privacy risks</div>
@@ -133,7 +133,7 @@ function Home() {
             </div>
 
             {/* Card 3 */}
-            <div className="card">
+            <div className="card-no-animation">
                 <div className="left-content">
                 <div className="large-card-text">93%</div>
                 <div className="small-card-text">of the incidents, AI either exacerbates a known risk or creates a new risk</div>
