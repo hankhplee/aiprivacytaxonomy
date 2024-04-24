@@ -56,7 +56,7 @@ function Publication() {
           <br/>
           <p><b><a href='https://arxiv.org/abs/2310.07879'>Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</a></b></p>
           <p><i><a href='https://chi2024.acm.org/'>CHI Conference on Human Factors in Computing Systems (CHI) 2024</a></i></p>
-          <p><a href='https://hankhplee.com/'>Hao-Ping (Hank) Lee</a>, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, 
+          <p><a href='https://hankhplee.com/'>Hao-Ping (Hank) Lee</a>, <a href='https://www.marisayang.com/'>Yu-Ju Yang</a>, <a href='https://www.linkedin.com/in/thomas-serban-von-davier/'>Thomas Serban von Davier</a>, <a href='https://jodiforlizzi.com/'>Jodi Forlizzi</a>, 
               and <a href='http://sauvik.me/'>Sauvik Das</a></p>
           <div className="bibtex-block">
             <div className="bibtex" ref={bibtexRef}>
