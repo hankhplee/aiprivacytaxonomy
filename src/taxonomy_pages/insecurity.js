@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const Insecurity = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Insecurity';
+        document.title = 'AI Privacy Taxonomy | Insecurity';
       }, []);
   return (
     <div className="App">

@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const PhrenologyPhysiognomy = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Phrenology Physiognomy';
+        document.title = 'AI Privacy Taxonomy | Phrenology Physiognomy';
       }, []);
   return (
     <div className="App">

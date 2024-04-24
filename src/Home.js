@@ -71,7 +71,7 @@ const columnData = [
 
 function Home() {
   useEffect(() => {
-    document.title = 'AI Privacy Risk | Home';
+    document.title = 'AI Privacy Taxonomy | Home';
   }, []);
   const scrollRef = useRef(null);
 

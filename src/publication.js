@@ -9,7 +9,7 @@ import PublicationPdfImg from './images/publication-pdf-img.png'
 function Publication() {
   const pdfUrl = "https://arxiv.org/pdf/2310.07879.pdf";
   useEffect(() => {
-    document.title = 'AI Privacy Risk | Publication';
+    document.title = 'AI Privacy Taxonomy | Publication';
   }, []);
 
   const bibtexRef = useRef(null);

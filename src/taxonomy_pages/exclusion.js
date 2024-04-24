@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const Exclusion = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Exclusion';
+        document.title = 'AI Privacy Taxonomy | Exclusion';
       }, []);
   return (
     <div className="App">

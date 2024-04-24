@@ -18,7 +18,7 @@ import GoToTop from './GoToTop'
 
 const Methods = () => {
   useEffect(() => {
-    document.title = 'AI Privacy Risk | Methods';
+    document.title = 'AI Privacy Taxonomy | Methods';
   }, []);
   const scrollRef = useRef(null);
 

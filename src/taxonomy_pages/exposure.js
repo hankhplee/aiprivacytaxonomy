@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const Exposure = () => {
   useEffect(() => {
-    document.title = 'AI Privacy Risk | Exposure';
+    document.title = 'AI Privacy Taxonomy | Exposure';
   }, []);
   return (
     <div className="App">

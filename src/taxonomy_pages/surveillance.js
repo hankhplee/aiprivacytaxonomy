@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const Surveillance = () => {
   useEffect(() => {
-    document.title = 'AI Privacy Risk | Surveillance';
+    document.title = 'AI Privacy Taxonomy | Surveillance';
   }, []);
   return (
     <div className="App">
