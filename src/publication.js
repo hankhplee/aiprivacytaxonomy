@@ -51,9 +51,10 @@ function Publication() {
         </div>
         <div className = "publication-content">
           <div>
-            To learn more about AI Privacy Taxonomy, please read our research paper (published at CHI'24). If you find AI Privacy Taxonomy useful for your research, please consider citing our paper. Thanks!
+            To learn more about the AI Privacy Taxonomy, please read our CHI'24 paper. If you find our AI Privacy Taxonomy useful for your work, please consider citing our paper. Thanks!
           </div>
-          <p><a href='https://arxiv.org/abs/2310.07879'>Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</a></p>
+          <br/>
+          <p><b><a href='https://arxiv.org/abs/2310.07879'>Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</a></b></p>
           <p><i><a href='https://chi2024.acm.org/'>CHI Conference on Human Factors in Computing Systems (CHI) 2024</a></i></p>
           <p><a href='https://hankhplee.com/'>Hao-Ping (Hank) Lee</a>, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, 
               and <a href='http://sauvik.me/'>Sauvik Das</a></p>
