@@ -34,7 +34,27 @@ import GoToTop from './GoToTop'
 
 const columnData = [
     {
+      circleImage: DataCollectionIcon,
+      title: 'Data Collection Risks',
+      cards: [
+        { id: 5, title: 'Surveillance', path: 'surveillance', icon: SurveillanceIcon, content: 'watching, listening to, or recording your activities' }
+      ]
+    },
+    {
+      circleImage: DataProcessingIcon,
+      title: 'Data Processing Risks',
+      cards: [
+        { id: 7, title: 'Identification', path: 'identification', icon: IdentificationIcon, content: 'linking specific data points to your identity' },
+        { id: 8, title: 'Aggregation', path: 'aggregation', icon: AggregationIcon, content: 'combining data about you to make inferences beyond what is captured in data' },
+        { id: 9, title: 'Phrenology / Physiognomy', path: 'phrenology_physiognomy', icon: PhrenologyPhysiognomyIcon, content: 'inferring social and emotional attributes from physical attributes.' },
+        { id: 10, title: 'Secondary Use', path: 'secondary_use', icon: SecondaryUseIcon, content: 'using personal data collected for one purpose for a different purpose without consent' },
+        { id: 11, title: 'Exclusion', path: 'exclusion', icon: ExclusionIcon, content: 'failure to provide end-users with notice and control over how their data is being used' },
+        { id: 12, title: 'Insecurity', path: 'insecurity', icon: InsecurityIcon, content: 'carelessness in protecting collected personal data due to faulty practices' }
+      ]
+    },
+    {
       circleImage: DataDisseminationIcon,
+      title: 'Data Dissemination Risks',
       cards: [
         { id: 1, title: 'Exposure', path: 'exposure', icon: ExposureIcon, content: 'revealing sensitive private information' },
         { id: 2, title: 'Distortion', path: 'distortion', icon: DistortionIcon, content: 'disseminating false or misleading information about people' },
@@ -44,26 +64,10 @@ const columnData = [
       ]
     },
     {
-      circleImage: DataCollectionIcon,
-      cards: [
-        { id: 5, title: 'Surveillance', path: 'surveillance', icon: SurveillanceIcon, content: 'watching, listening to, or recording your activities' }
-      ]
-    },
-    {
       circleImage: InvasionIcon,
+      title: 'Invasion Risks',
       cards: [
         { id: 6, title: 'Intrusion', path: 'intrusion', icon: IntrusionIcon, content: 'actions that disturb one’s solitude in physical space' }
-      ]
-    },
-    {
-      circleImage: DataProcessingIcon,
-      cards: [
-        { id: 7, title: 'Identification', path: 'identification', icon: IdentificationIcon, content: 'linking specific data points to your identity' },
-        { id: 8, title: 'Aggregation', path: 'aggregation', icon: AggregationIcon, content: 'combining data about you to make inferences beyond what is captured in data' },
-        { id: 9, title: 'Phrenology / Physiognomy', path: 'phrenology_physiognomy', icon: PhrenologyPhysiognomyIcon, content: 'inferring social and emotional attributes from physical attributes.' },
-        { id: 10, title: 'Secondary Use', path: 'secondary_use', icon: SecondaryUseIcon, content: 'using personal data collected for one purpose for a different purpose without consent' },
-        { id: 11, title: 'Exclusion', path: 'exclusion', icon: ExclusionIcon, content: 'failure to provide end-users with notice and control over how their data is being used' },
-        { id: 12, title: 'Insecurity', path: 'insecurity', icon: InsecurityIcon, content: 'carelessness in protecting collected personal data due to faulty practices' }
       ]
     }
   ];
@@ -172,6 +176,7 @@ function Home() {
             <div className="circle-image">
                 <img src={column.circleImage} alt={`circle${index + 1}`} className="circle" />
             </div>
+            <p className="circle-image-title">{column.title}</p>
           <div className="column-content">
             {/* Map through cards to create cards in each column */}
             {column.cards.map(card => (
