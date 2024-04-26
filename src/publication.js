@@ -51,7 +51,7 @@ function Publication() {
         </div>
         <div className = "publication-content">
           <div>
-            To learn more about the AI Privacy Taxonomy, please read our CHI'24 paper. If you find our AI Privacy Taxonomy useful for your work, please consider citing our paper. Thanks!
+            To learn more about the AI Privacy Taxonomy, please read our CHI'24 paper:
           </div>
           <br/>
           <p><b><a href='https://arxiv.org/abs/2310.07879'>Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</a></b></p>
