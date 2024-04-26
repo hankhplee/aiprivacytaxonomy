@@ -56,48 +56,48 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const fileNames = [
-  'exposure',
-  'distortion',
-  'disclosure',
-  'increased accessibility',
   'surveillance',
-  'intrusion',
   'identification',
   'aggregation',
   'phrenology/physiognomy',
   'secondary use',
   'exclusion',
-  'insecurity'
-];
-
-const filePaths = [
+  'insecurity',
   'exposure',
   'distortion',
   'disclosure',
-  'increased_accessibility',
+  'increased accessibility',
+  'intrusion'
+];
+
+const filePaths = [
   'surveillance',
-  'intrusion',
   'identification',
   'aggregation',
   'phrenology_physiognomy',
   'secondary_use',
   'exclusion',
-  'insecurity'
+  'insecurity',
+  'exposure',
+  'distortion',
+  'disclosure',
+  'increased_accessibility',
+  'intrusion'
 ];
 
 const fileImages = [
-  ExposureIcon,
-  DistortionIcon,
-  DisclosureIcon,
-  IncreasedAccessibilityIcon,
   SurveillanceIcon,
-  IntrusionIcon,
   IdentificationIcon,
   AggregationIcon,
   PhrenologyPhysiognomyIcon,
   SecondaryUseIcon,
   ExclusionIcon,
-  InsecurityIcon
+  InsecurityIcon,
+  ExposureIcon,
+  DistortionIcon,
+  DisclosureIcon,
+  IncreasedAccessibilityIcon,
+  IntrusionIcon
 ];
 
 const Sidebar = () => {
