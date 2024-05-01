@@ -46,7 +46,7 @@ const columnData = [
       cards: [
         { id: 7, title: 'Identification', path: 'identification', icon: IdentificationIcon, content: 'linking specific data points to your identity' },
         { id: 8, title: 'Aggregation', path: 'aggregation', icon: AggregationIcon, content: 'combining data about you to make inferences beyond what is captured in data' },
-        { id: 9, title: 'Phrenology / Physiognomy', path: 'phrenology_physiognomy', icon: PhrenologyPhysiognomyIcon, content: 'inferring social and emotional attributes from physical attributes.' },
+        { id: 9, title: 'Phrenology / Physiognomy', path: 'phrenology_physiognomy', icon: PhrenologyPhysiognomyIcon, content: 'inferring social and emotional attributes from physical attributes' },
         { id: 10, title: 'Secondary Use', path: 'secondary_use', icon: SecondaryUseIcon, content: 'using personal data collected for one purpose for a different purpose without consent' },
         { id: 11, title: 'Exclusion', path: 'exclusion', icon: ExclusionIcon, content: 'failure to provide end-users with notice and control over how their data is being used' },
         { id: 12, title: 'Insecurity', path: 'insecurity', icon: InsecurityIcon, content: 'carelessness in protecting collected personal data due to faulty practices' }
