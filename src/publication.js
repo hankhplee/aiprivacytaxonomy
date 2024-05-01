@@ -5,6 +5,8 @@ import { useEffect, useRef } from 'react';
 import { IconButton } from '@mui/material';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import PublicationPdfImg from './images/publication-pdf-img.png'
+import GoToTop from './GoToTop'
+
 
 function Publication() {
   const pdfUrl = "https://arxiv.org/pdf/2310.07879.pdf";
@@ -70,6 +72,8 @@ function Publication() {
           </div>
         </div>
       </div>
+      <GoToTop/>
+
     </div>
   );
 }
