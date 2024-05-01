@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aiprivacytaxonomy/static/css/main.aa6cdf25.css",
-    "main.js": "/aiprivacytaxonomy/static/js/main.4f6db106.js",
+    "main.js": "/aiprivacytaxonomy/static/js/main.81bba683.js",
     "static/js/592.8da0831d.chunk.js": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js",
     "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.68908027226253548d2d.jpg",
     "static/media/identification-img-3.png": "/aiprivacytaxonomy/static/media/identification-img-3.b1f705b5ce1d846e8960.png",
@@ -69,11 +69,11 @@
     "static/media/increased-accessibility-img-1.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-1.dd7a5bacead01771d760.webp",
     "index.html": "/aiprivacytaxonomy/index.html",
     "main.aa6cdf25.css.map": "/aiprivacytaxonomy/static/css/main.aa6cdf25.css.map",
-    "main.4f6db106.js.map": "/aiprivacytaxonomy/static/js/main.4f6db106.js.map",
+    "main.81bba683.js.map": "/aiprivacytaxonomy/static/js/main.81bba683.js.map",
     "592.8da0831d.chunk.js.map": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6cdf25.css",
-    "static/js/main.4f6db106.js"
+    "static/js/main.81bba683.js"
   ]
 }
