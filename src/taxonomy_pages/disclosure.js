@@ -21,7 +21,7 @@ import GoToTop from '../GoToTop'
 
 const Disclosure = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Disclosure';
+        document.title = 'AI Privacy Taxonomy | Disclosure';
       }, []);
   return (
     <div className="App">

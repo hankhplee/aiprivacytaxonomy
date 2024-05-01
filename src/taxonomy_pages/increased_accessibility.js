@@ -17,7 +17,7 @@ import GoToTop from '../GoToTop'
 
 const IncreasedAccessibility = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Increased Accessibility';
+        document.title = 'AI Privacy Taxonomy | Increased Accessibility';
       }, []);
   return (
     <div className="App">

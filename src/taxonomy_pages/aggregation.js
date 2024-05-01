@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const Aggregation = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Aggregation';
+        document.title = 'AI Privacy Taxonomy | Aggregation';
       }, []);
   return (
     <div className="App">

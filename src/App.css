@@ -253,6 +253,14 @@ a {
 
 }
 
+.circle-image-title {
+  font-size: 22px;
+  font-weight: bold; /* Make large card text bold */
+  /* margin-bottom: 3px; /* Add margin between large and small card text */
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+}
 
 
 .column {

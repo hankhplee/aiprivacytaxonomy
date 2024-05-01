@@ -18,7 +18,7 @@ import GoToTop from '../GoToTop'
 
 const SecondaryUse = () => {
     useEffect(() => {
-        document.title = 'AI Privacy Risk | Secondary Use';
+        document.title = 'AI Privacy Taxonomy | Secondary Use';
       }, []);
   return (
     <div className="App">
