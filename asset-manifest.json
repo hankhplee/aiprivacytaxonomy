@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/aiprivacytaxonomy/static/css/main.aa6cdf25.css",
-    "main.js": "/aiprivacytaxonomy/static/js/main.81bba683.js",
+    "main.css": "/aiprivacytaxonomy/static/css/main.687d9645.css",
+    "main.js": "/aiprivacytaxonomy/static/js/main.b8ad1566.js",
     "static/js/592.8da0831d.chunk.js": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js",
-    "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.68908027226253548d2d.jpg",
+    "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.243507becd454d619e7c.jpg",
     "static/media/identification-img-3.png": "/aiprivacytaxonomy/static/media/identification-img-3.b1f705b5ce1d846e8960.png",
     "static/media/secondary-img-2.webp": "/aiprivacytaxonomy/static/media/secondary-img-2.0145aa7adde0956e6974.webp",
     "static/media/increased-accessibility-img-2.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-2.7fa06bd0d3d79f78cb23.webp",
@@ -12,8 +12,8 @@
     "static/media/publication-pdf-img.png": "/aiprivacytaxonomy/static/media/publication-pdf-img.7375e5b24e3d3405d630.png",
     "static/media/china_police.jpg": "/aiprivacytaxonomy/static/media/china_police.dde66d73584ecc18f92e.jpg",
     "static/media/identification-img-2.webp": "/aiprivacytaxonomy/static/media/identification-img-2.1ba63db5176cd4a3af00.webp",
+    "static/media/methods-graphic.png": "/aiprivacytaxonomy/static/media/methods-graphic.f9bbcf822a9625e147c4.png",
     "static/media/intrusion-img-4.jpg": "/aiprivacytaxonomy/static/media/intrusion-img-4.b5740b85929c733c6b07.jpg",
-    "static/media/methods-graphic.png": "/aiprivacytaxonomy/static/media/methods-graphic.1aacdbd6bdb7098893b6.png",
     "static/media/home-background-image.jpg": "/aiprivacytaxonomy/static/media/home-background-image.58cbd5d1b839292b98c7.jpg",
     "static/media/distortion-img-3.png": "/aiprivacytaxonomy/static/media/distortion-img-3.7ea6bf6a351087368674.png",
     "static/media/book-check.png": "/aiprivacytaxonomy/static/media/book-check.0be216f62ea795423324.png",
@@ -68,12 +68,12 @@
     "static/media/aggregation-img-3.webp": "/aiprivacytaxonomy/static/media/aggregation-img-3.e2df6adf638ac6309638.webp",
     "static/media/increased-accessibility-img-1.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-1.dd7a5bacead01771d760.webp",
     "index.html": "/aiprivacytaxonomy/index.html",
-    "main.aa6cdf25.css.map": "/aiprivacytaxonomy/static/css/main.aa6cdf25.css.map",
-    "main.81bba683.js.map": "/aiprivacytaxonomy/static/js/main.81bba683.js.map",
+    "main.687d9645.css.map": "/aiprivacytaxonomy/static/css/main.687d9645.css.map",
+    "main.b8ad1566.js.map": "/aiprivacytaxonomy/static/js/main.b8ad1566.js.map",
     "592.8da0831d.chunk.js.map": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa6cdf25.css",
-    "static/js/main.81bba683.js"
+    "static/css/main.687d9645.css",
+    "static/js/main.b8ad1566.js"
   ]
 }
