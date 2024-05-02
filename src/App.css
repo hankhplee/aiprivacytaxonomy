@@ -339,6 +339,12 @@ a {
   .header-container {
     padding-left: 50px;
   }
+  .header-container2 {
+    padding-left: 50px;
+  }
+  .header-container-3 {
+    padding-left: 50px;
+  }
 
   .circle-container {
     padding-left: 50px;
@@ -364,6 +370,7 @@ a {
     font-size: 30px /* Set width to 100% at a certain breakpoint */
   }
 }
+
 
 
 
