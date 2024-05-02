@@ -83,7 +83,7 @@ a {
   color: white;
   font-size: 55px; /* Increased font size */
   font-weight: bold; /* Made bold */
-  padding-right: 500px;
+  padding-right: 20vw;
 }
 
 .paragraph-title {
@@ -226,9 +226,9 @@ a {
 }
 
 .circle-container {
-  display: flex;
-  justify-content: space-between; /* Align circles horizontally with space between */
-  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a 4-column grid */
+  gap: 3.5vw;
   margin-top: 200px; /* Add margin to separate from previous content */
   padding-right: 200px; /* Add right padding for better spacing */
   margin-top: 150px; /* Add margin to separate content from header */
@@ -237,8 +237,8 @@ a {
 }
 
 .circle-image {
-  width: 250px;
-  height: 250px;
+  width: 18vw;
+  height: 18vw;
   border-radius: 50%;
   border: 2px solid var(--primary-color);
   display: flex;
@@ -248,8 +248,8 @@ a {
 }
 
 .circle-image img {
-  max-width: 200px;
-  max-height: 700px;
+  max-width: 12vw;
+  max-height: 15vw;
 
 }
 
@@ -260,11 +260,13 @@ a {
   color: white;
   text-decoration: none;
   padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 
 .column {
-  width: 25%; /* Make each column span 25% of the screen width */
+  width: 100%; /* Make each column span 25% of the screen width */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -280,7 +282,7 @@ a {
 
 .card {
   width: 100%; /* Adjust the width of the cards */
-  height: 150px; /* Adjust the height of the cards */
+  height: 200px; /* Adjust the height of the cards */
   border: 1px solid #ccc; /* Gray outline */
   border-radius: var(--border-radius);
   box-sizing: border-box; /* Include padding and border in the total width and height */
@@ -320,6 +322,50 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 1600px) {
+
+  .circle-container {
+    grid-template-columns: repeat(2, 1fr); /* Changes to a 2-column grid below 1000px */
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  .main-title {
+      padding-right: 50px; /* Set width to 100% at a certain breakpoint */
+  }
+  .header-container {
+    padding-left: 50px;
+  }
+
+  .circle-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .info-paragraph {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+  .circle-container {
+    grid-template-columns: 1fr; /* Changes to a 1-column grid below 700px */
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .main-title {
+    font-size: 30px /* Set width to 100% at a certain breakpoint */
+  }
+}
+
+
 
 
 

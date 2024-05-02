@@ -27,7 +27,7 @@ const Disclosure = () => {
     <div className="App">
       <Navbar />
       <Sidebar /> {/* Include the Sidebar component */}
-      <div className="bottom-padding main-individual-padding"> {/* Added padding */}
+      <div className="main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Disclosure</h1>
         <h2 className="subtitle">revealing and improperly sharing data of individuals</h2> {/* Adjusted margin */}
         <h1 className="subtitle bold top-padding-small">How does AI influence the exacerbation risk?</h1>

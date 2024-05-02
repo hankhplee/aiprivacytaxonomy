@@ -33,10 +33,9 @@ const useStyles = makeStyles((theme) => ({
     borderRight: '1px solid gray',
   },
   circle: {
-    width: '50px',
-    height: '50px',
+    height: '5.25vh',
     borderRadius: '50%',
-    marginBottom: '10px',
+    marginBottom: '.75vh',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

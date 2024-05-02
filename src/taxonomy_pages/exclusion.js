@@ -24,7 +24,7 @@ const Exclusion = () => {
     <div className="App">
       <Navbar />
       <Sidebar /> {/* Include the Sidebar component */}
-      <div className="bottom-padding main-individual-padding"> {/* Added padding */}
+      <div className="main-individual-padding"> {/* Added padding */}
         <h1 className="main-title">Exclusion</h1>
         <h2 className="subtitle">the failure to provide end-users with notice and control over how their data is being used</h2> {/* Adjusted margin */}
         <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>

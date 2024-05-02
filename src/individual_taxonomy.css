@@ -37,7 +37,7 @@
     width: fit-content;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .news-card {
         width: 100%; /* Set width to 100% at a certain breakpoint */
     }
