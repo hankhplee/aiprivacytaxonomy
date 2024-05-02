@@ -25,7 +25,7 @@ const Surveillance = () => {
       <Navbar />
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="main-individual-padding"> {/* Added padding */}
-        <h1 className="main-title">Surveillance</h1>
+        <h1 className="main-title-2">Surveillance</h1>
         <h2 className="subtitle">watching, listening to, or recording of an individual’s activities</h2> {/* Adjusted margin */}
         <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}

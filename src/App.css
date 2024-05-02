@@ -86,6 +86,13 @@ a {
   padding-right: 20vw;
 }
 
+.main-title-2 {
+  color: white;
+  font-size: 55px; /* Increased font size */
+  font-weight: bold; /* Made bold */
+  padding-right: 20vw;
+}
+
 .paragraph-title {
   margin: 0;
   color: white;
@@ -323,6 +330,11 @@ a {
   text-decoration: none;
 }
 
+.remove-padding-mobile {
+  padding-left: 200;
+  padding-right: 200;
+}
+
 @media (max-width: 1600px) {
 
   .circle-container {
@@ -335,6 +347,9 @@ a {
 @media (max-width: 1000px) {
   .main-title {
       padding-right: 50px; /* Set width to 100% at a certain breakpoint */
+  }
+  .main-title-2 {
+    padding-right: 50px;
   }
   .header-container {
     padding-left: 50px;
@@ -368,6 +383,29 @@ a {
   }
   .main-title {
     font-size: 30px /* Set width to 100% at a certain breakpoint */
+  }
+  .remove-padding-mobile {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+}
+
+@media (max-width: 700px) {
+  .main-title-2 {
+    font-size: 35px /* Set width to 100% at a certain breakpoint */
+  }
+  .circle-image {
+    height: 25vw;
+    width: 25vw;
+  }
+
+  .circle-image img {
+    max-width: 15vw;
+  
+  }
+  .column {
+    padding-top: 30px;
   }
 }
 

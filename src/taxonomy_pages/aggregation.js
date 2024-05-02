@@ -25,7 +25,7 @@ const Aggregation = () => {
       <Navbar />
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="main-individual-padding"> {/* Added padding */}
-        <h1 className="main-title">Aggregation</h1>
+        <h1 className="main-title-2">Aggregation</h1>
         <h2 className="subtitle">combining various pieces of data about a person to make inferences beyond what is explicitly captured in those data</h2> {/* Adjusted margin */}
         <h1 className="subtitle bold top-padding-small">How does AI influence the risk?</h1>
         <div className="blue-line"></div> {/* Blue line */}

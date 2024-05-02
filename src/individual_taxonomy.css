@@ -49,6 +49,14 @@
 
 }
 
+@media (max-width: 700px) {
+  .info-paragraph3 {
+    padding-right: 50px;
+  }
+
+
+}
+
 
 
 

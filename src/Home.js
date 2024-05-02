@@ -160,12 +160,12 @@ function Home() {
           individuals from low fidelity data sources).</p> {/* Paragraph content */}
 
 
-        <div className="img-container">
+         {/* Card container */} 
+      </div>
+      <div className="img-container remove-padding-mobile">
           {/* Card 1 */}
           <img src={DataFlow} alt="data flow"/>
         </div>
-         {/* Card container */} 
-      </div>
       {/* End of card container */}
 
       {/* Circle container */}
