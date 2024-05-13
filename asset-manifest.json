@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aiprivacytaxonomy/static/css/main.11c77f2f.css",
+    "main.css": "/aiprivacytaxonomy/static/css/main.f8ac4d60.css",
     "main.js": "/aiprivacytaxonomy/static/js/main.892f94fd.js",
     "static/js/592.8da0831d.chunk.js": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js",
     "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.243507becd454d619e7c.jpg",
@@ -68,12 +68,12 @@
     "static/media/aggregation-img-3.webp": "/aiprivacytaxonomy/static/media/aggregation-img-3.e2df6adf638ac6309638.webp",
     "static/media/increased-accessibility-img-1.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-1.dd7a5bacead01771d760.webp",
     "index.html": "/aiprivacytaxonomy/index.html",
-    "main.11c77f2f.css.map": "/aiprivacytaxonomy/static/css/main.11c77f2f.css.map",
+    "main.f8ac4d60.css.map": "/aiprivacytaxonomy/static/css/main.f8ac4d60.css.map",
     "main.892f94fd.js.map": "/aiprivacytaxonomy/static/js/main.892f94fd.js.map",
     "592.8da0831d.chunk.js.map": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11c77f2f.css",
+    "static/css/main.f8ac4d60.css",
     "static/js/main.892f94fd.js"
   ]
 }
