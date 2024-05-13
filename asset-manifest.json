@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aiprivacytaxonomy/static/css/main.42f1b111.css",
-    "main.js": "/aiprivacytaxonomy/static/js/main.637d0739.js",
+    "main.css": "/aiprivacytaxonomy/static/css/main.11c77f2f.css",
+    "main.js": "/aiprivacytaxonomy/static/js/main.892f94fd.js",
     "static/js/592.8da0831d.chunk.js": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js",
     "static/media/publication-main-img.jpg": "/aiprivacytaxonomy/static/media/publication-main-img.243507becd454d619e7c.jpg",
     "static/media/identification-img-3.png": "/aiprivacytaxonomy/static/media/identification-img-3.b1f705b5ce1d846e8960.png",
@@ -68,12 +68,12 @@
     "static/media/aggregation-img-3.webp": "/aiprivacytaxonomy/static/media/aggregation-img-3.e2df6adf638ac6309638.webp",
     "static/media/increased-accessibility-img-1.webp": "/aiprivacytaxonomy/static/media/increased-accessibility-img-1.dd7a5bacead01771d760.webp",
     "index.html": "/aiprivacytaxonomy/index.html",
-    "main.42f1b111.css.map": "/aiprivacytaxonomy/static/css/main.42f1b111.css.map",
-    "main.637d0739.js.map": "/aiprivacytaxonomy/static/js/main.637d0739.js.map",
+    "main.11c77f2f.css.map": "/aiprivacytaxonomy/static/css/main.11c77f2f.css.map",
+    "main.892f94fd.js.map": "/aiprivacytaxonomy/static/js/main.892f94fd.js.map",
     "592.8da0831d.chunk.js.map": "/aiprivacytaxonomy/static/js/592.8da0831d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42f1b111.css",
-    "static/js/main.637d0739.js"
+    "static/css/main.11c77f2f.css",
+    "static/js/main.892f94fd.js"
   ]
 }
