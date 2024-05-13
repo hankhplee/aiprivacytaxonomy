@@ -4,6 +4,14 @@
 
 }
 
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 a {
   color: var(--primary-color); /* Change to your desired color */
   text-decoration: none;
@@ -84,6 +92,10 @@ a {
   font-size: 55px; /* Increased font size */
   font-weight: bold; /* Made bold */
   padding-right: 20vw;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .main-title-2 {
@@ -91,6 +103,10 @@ a {
   font-size: 55px; /* Increased font size */
   font-weight: bold; /* Made bold */
   padding-right: 20vw;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .paragraph-title {
@@ -98,12 +114,19 @@ a {
   color: white;
   font-size: 40px; /* Increased font size */
   font-weight: normal; /* Made bold */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .subtitle {
   margin: 0;
   color: white;
   font-weight: normal; /* Removed bold */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .learn-more-button {
@@ -115,8 +138,11 @@ a {
   border-radius: 8px; /* Increased border radius */
   cursor: pointer;
   font-size: 18px; /* Increased font size */
-  font-weight: bold; /* Made text bold */
+  font-weight: 600; /* Made text bold */
   text-decoration: none; /* Remove underline */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 
 }
 
@@ -133,21 +159,48 @@ a {
   margin-top: 150px; /* Add margin to separate content from header */
   color: white; /* Add text color */
   padding-left: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
+}
+
+.info-paragraph p {
+  font-size: 20px;
 }
 
 .info-paragraph2 {
   margin-top: 50px; /* Add margin to separate content from header */
   color: white; /* Add text color */
   padding-right: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
+}
+
+.info-paragraph2 p {
+  font-size: 20px;
 }
 
 .info-paragraph3 {
   margin-top: 20px; /* Add margin to separate content from header */
   color: white; /* Add text color */
   padding-right: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
+}
+
+.info-paragraph3 p {
+  font-size: 20px;
 }
 
 
@@ -219,7 +272,7 @@ a {
 }
 
 .small-card-text {
-  font-size: 14px; /* Set font size for small card text */
+  font-size: 16px; /* Set font size for small card text */
 }
 
 .blue-line {
@@ -236,7 +289,6 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a 4-column grid */
   gap: 3.5vw;
-  margin-top: 200px; /* Add margin to separate from previous content */
   padding-right: 200px; /* Add right padding for better spacing */
   margin-top: 150px; /* Add margin to separate content from header */
   padding-left: 200px;
@@ -261,14 +313,20 @@ a {
 }
 
 .circle-image-title {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold; /* Make large card text bold */
   /* margin-bottom: 3px; /* Add margin between large and small card text */
   color: white;
   text-decoration: none;
-  padding-top: 10px;
+  padding-top: 30px;
   white-space: nowrap;
   overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -311,8 +369,18 @@ a {
 }
 
 .img-container img {
-  max-height:90%; 
-  max-width:90%;
+  max-height:80%; 
+  max-width:80%;
+}
+
+.cohens-kappa {
+  width: 40%;
+  height: 40%
+}
+
+.methods-img {
+  width: 60%;
+  height: 60%;
 }
 
 .medium-card-text {
@@ -322,18 +390,71 @@ a {
   color: white;
   text-decoration: none;
   padding-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .tiny-card-text {
-  font-size: 14px; /* Set font size for small card text */
+  font-size: 16px; /* Set font size for small card text */
   color: white;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .remove-padding-mobile {
-  padding-left: 200;
-  padding-right: 200;
+  padding-left: 200px;
+  padding-right: 200px;
 }
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal-content img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 100%;
+  /* Maintain aspect ratio */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.modal.show {
+  display: block;
+}
+
+
 
 @media (max-width: 1600px) {
 
@@ -371,6 +492,21 @@ a {
     padding-right: 50px;
   }
 
+  .remove-padding-mobile {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .cohens-kappa {
+    width: 70%;
+    height: 70%
+  }
+
+  .methods-img {
+    width: 100%;
+    height: 100%
+  }
+
 
 }
 
@@ -406,6 +542,14 @@ a {
   }
   .column {
     padding-top: 30px;
+  }
+
+  .circle-container {
+    margin-top: 40px;
+  }
+
+  .info-paragraph {
+    margin-top: 40px;
   }
 }
 

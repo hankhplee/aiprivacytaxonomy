@@ -52,7 +52,7 @@ const Methods = () => {
          {/* Card container */}
         <div className="img-container">
           {/* Card 1 */}
-          <img src={methodGraphic} alt="methods"/>
+          <img src={methodGraphic} className="methods-img" alt="methods"/>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ const Methods = () => {
         <br/>
         <p>To validate the inter-rater reliability, the two coders independently coded 65 cases (20% of our overall analysis pool) and reached a high agreement, with Cohen's Kappa larger than 0.8 on every type of risk and averaging 0.94 on all types of risks. </p>
         <div className="img-container">
-          <img style={{maxHeight: "35%", maxWidth: "35%"}} src={cohensKappa} alt="Cohens Kappa"/>
+          <img className="cohens-kappa" src={cohensKappa} alt="Cohens Kappa"/>
         </div>
       </div>
 

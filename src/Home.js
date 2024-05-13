@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 
 import './App.css';
 import Navbar from './navbar.js';
@@ -82,6 +82,21 @@ function Home() {
   const handleLearnMoreClick = () => {
     scrollRef.current.scrollIntoView({ behavior: "smooth" });
   };
+
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+    document.body.style.overflow = 'hidden'; // Enable scrolling of the main page
+
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    document.body.style.overflow = 'auto'; // Enable scrolling of the main page
+
+  };
+
   return (
     <div className="App">
       <Navbar />
@@ -92,13 +107,13 @@ function Home() {
             <h1 className="main-title">Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks</h1>
             <h2 className="subtitle">How does AI change privacy risks, if at all?</h2> {/* Removed bold */}
             <button className="learn-more-button" onClick={handleLearnMoreClick}> {/* Increased button size and made text bold */}
-              Learn More
+              Explore Risks
             </button>
           </div>
         </div>
       </div>
       {/* End of header-container */}
-      <div ref={scrollRef}>
+      <div>
       </div>
       {/* Separate content container */}
       <div className="info-paragraph">
@@ -112,7 +127,7 @@ function Home() {
           not meaningfully alter the risk. We present 12 high-level privacy risks that AI technologies 
           either newly created (e.g., exposure risks from deepfake pornography) or exacerbated 
           (e.g., surveillance risks from collecting training data). 
-</p> {/* Paragraph content */}
+          </p> {/* Paragraph content */}
 
          {/* Card container */}
         <div className="card-container">
@@ -162,14 +177,14 @@ function Home() {
 
          {/* Card container */} 
       </div>
-      <div className="img-container remove-padding-mobile">
+      <div onClick={openModal} className="img-container remove-padding-mobile">
           {/* Card 1 */}
           <img src={DataFlow} alt="data flow"/>
         </div>
       {/* End of card container */}
 
       {/* Circle container */}
-      <div className="circle-container">
+      <div className="circle-container" ref={scrollRef}>
 
       {columnData.map((column, index) => (
         <div key={index} className="column">
@@ -195,6 +210,12 @@ function Home() {
             </div>
           </div>
       ))}
+      <div className={`modal ${showModal ? "show" : ""}`} onClick={closeModal}>
+        <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <span className="close-btn" onClick={closeModal}>&times;</span>
+          <img src={DataFlow} alt="Enlarged" />
+        </div>
+      </div>
     </div>
     
     <GoToTop/>

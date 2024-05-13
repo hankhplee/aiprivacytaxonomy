@@ -3,8 +3,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-right: 13vw; /* Add right padding for better spacing */
-    padding-left: 13vw;
+    padding-right: 200px; /* Add right padding for better spacing */
+    padding-left: 200px;
     display: flex;
     align-items: center; 
     position: fixed; /* Make the navbar stick to the top */
@@ -15,22 +15,55 @@
     right: 0;
     z-index: 1;
     border-bottom: 1px solid gray;
+
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
   }
   
   .brand {
     font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
   
   .link {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
   
   .link:hover {
     text-decoration: underline;
   }
+
+  .title-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
   
   body {
     padding-top: 100px;
+  }
+
+  @media (max-width: 1000px) {
+    .navbar {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
   }

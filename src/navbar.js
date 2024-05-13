@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <Link to="/aiprivacytaxonomy" className="link">
-          <span className="brand">AI Privacy Taxonomy</span>
+        <Link to="/aiprivacytaxonomy" className="title-link">
+          <div className="brand">AI Privacy Taxonomy</div>
         </Link>
       </div>
       <div className="right">
