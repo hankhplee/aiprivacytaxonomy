@@ -130,7 +130,7 @@
 
 @media (max-width: 1200px) {
   .publication-info-paragraph {
-    flex-direction: column; /* Changes to a 1-column grid below 700px */
+    flex-direction: column-reverse; /* Changes to a 1-column grid below 700px */
     padding-left: 50px;
     padding-right: 50px;
     gap: 50px;

@@ -36,6 +36,7 @@
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-size: 16px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -65,5 +66,9 @@
     .navbar {
       padding-right: 50px;
       padding-left: 50px;
+    }
+
+    .link {
+      font-size: 12px;
     }
   }
