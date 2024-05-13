@@ -83,19 +83,6 @@ function Home() {
     scrollRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal(true);
-    document.body.style.overflow = 'hidden'; // Enable scrolling of the main page
-
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-    document.body.style.overflow = 'auto'; // Enable scrolling of the main page
-
-  };
 
   return (
     <div className="App">
@@ -177,7 +164,7 @@ function Home() {
 
          {/* Card container */} 
       </div>
-      <div onClick={openModal} className="img-container remove-padding-mobile">
+      <div className="img-container remove-padding-mobile">
           {/* Card 1 */}
           <img src={DataFlow} alt="data flow"/>
         </div>
@@ -210,12 +197,7 @@ function Home() {
             </div>
           </div>
       ))}
-      <div className={`modal ${showModal ? "show" : ""}`} onClick={closeModal}>
-        <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-          <span className="close-btn" onClick={closeModal}>&times;</span>
-          <img src={DataFlow} alt="Enlarged" />
-        </div>
-      </div>
+
     </div>
     
     <GoToTop/>

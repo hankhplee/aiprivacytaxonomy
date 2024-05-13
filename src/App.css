@@ -374,8 +374,8 @@ a {
 }
 
 .cohens-kappa {
-  width: 40%;
-  height: 40%
+  width: 35%;
+  height: 35%
 }
 
 .methods-img {
@@ -399,12 +399,11 @@ a {
 }
 
 .tiny-card-text {
-  font-size: 16px; /* Set font size for small card text */
+  font-size: 14px; /* Set font size for small card text */
   color: white;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
