@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../navbar';
+import NavbarSidebar from '../navbar_sidebar';
 import Sidebar from './sidebar'; // Import the Sidebar component
 import '../App.css';
 import '../individual_taxonomy.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
@@ -17,13 +17,25 @@ import GoToTop from '../GoToTop'
 
 
 const SecondaryUse = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
     useEffect(() => {
         document.title = 'AI Privacy Taxonomy | Secondary Use';
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
       }, []);
+
+
+
   return (
     <div className="App">
-      <Navbar />
-      <Sidebar /> {/* Include the Sidebar component */}
+      <NavbarSidebar />
+      {!isMobile && <Sidebar/>}
       <div className="main-individual-padding"> {/* Added padding */}
         <h1 className="main-title-2">Secondary Use</h1>
         <h2 className="subtitle">the use of personal data collected for one purpose for a different purpose without end-user consent</h2> {/* Adjusted margin */}

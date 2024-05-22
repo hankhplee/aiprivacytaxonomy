@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../navbar';
+import NavbarSidebar from '../navbar_sidebar';
 import Sidebar from './sidebar'; // Import the Sidebar component
 import '../App.css';
 import '../individual_taxonomy.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 
 // Assuming you have imported necessary images for the cards
@@ -16,13 +16,25 @@ import GoToTop from '../GoToTop'
 
 
 const IncreasedAccessibility = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
     useEffect(() => {
         document.title = 'AI Privacy Taxonomy | Increased Accessibility';
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
       }, []);
+
+
+
   return (
     <div className="App">
-      <Navbar />
-      <Sidebar /> {/* Include the Sidebar component */}
+      <NavbarSidebar />
+      {!isMobile && <Sidebar/>}
       <div className="main-individual-padding"> {/* Added padding */}
         <h1 className="main-title-2">Increased Accessibility</h1>
         <h2 className="subtitle">making it easier for a wider audience of people to access potentially sensitive information</h2> {/* Adjusted margin */}

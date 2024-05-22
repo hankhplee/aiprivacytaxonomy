@@ -14,7 +14,7 @@
 
   .main-individual-padding {
     padding-left: 150px;
-    padding-right: 13vw;
+    padding-right: 150px;
     padding-top: 50px;
   }
 
@@ -37,6 +37,22 @@
     width: fit-content;
   }
 
+  .sidebar-div {
+    display: flex;
+    gap: 10px;
+    padding-left: 50px;
+    align-items: center;
+  }
+
+  .sidebar-text {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+
   @media (max-width: 1000px) {
     .news-card {
         width: 100%; /* Set width to 100% at a certain breakpoint */
@@ -49,9 +65,13 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .info-paragraph3 {
     padding-right: 50px;
+  }
+
+  .main-individual-padding {
+    padding-left: 50px;
   }
 
 

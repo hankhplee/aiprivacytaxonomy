@@ -4,6 +4,24 @@
 
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 20px;
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0E8286;
+}
+
 .montserrat-400 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
