@@ -305,12 +305,14 @@ a {
 
 .circle-container {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a 4-column grid */
   gap: 3.5vw;
   padding-right: 200px; /* Add right padding for better spacing */
   margin-top: 150px; /* Add margin to separate content from header */
   padding-left: 200px;
   width: 100%;
+
 }
 
 .circle-image {
