@@ -25,6 +25,7 @@
   
   .brand {
     font-weight: bold;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -64,11 +65,15 @@
 
   @media (max-width: 1000px) {
     .navbar {
-      padding-right: 50px;
-      padding-left: 50px;
+      padding-right: 25px;
+      padding-left: 25px;
     }
 
     .link {
+      font-size: 12px;
+    }
+
+    .brand {
       font-size: 12px;
     }
   }

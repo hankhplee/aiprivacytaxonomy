@@ -116,6 +116,9 @@
 .publication-flex {
   display: flex;
   flex-direction: row;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: none;
 }
 
 .image-overlay {
@@ -146,9 +149,10 @@
 @media (max-width: 1200px) {
   .publication-flex {
     flex-direction: column-reverse; /* Changes to a 1-column grid below 700px */
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
     gap: 50px;
+    justify-content: center;
   }
 
   .main-publication-div {
