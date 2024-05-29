@@ -1,10 +1,11 @@
 import React from 'react';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useEffect } from 'react';
 
 
 import './App.css';
-import Navbar from './navbar.js';
+import NavbarSidebar from './navbar_sidebar.js';
+import Sidebar from './taxonomy_pages/sidebar';
 import { Route, Routes } from 'react-router-dom';
 import Publication from './publication';
 import App from './App';
@@ -17,9 +18,21 @@ import GoToTop from './GoToTop'
 
 
 const Methods = () => {
-  useEffect(() => {
-    document.title = 'AI Privacy Taxonomy | Methods';
-  }, []);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+    useEffect(() => {
+        document.title = 'AI Privacy Taxonomy | Methods';
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
+
+
   const scrollRef = useRef(null);
 
   const handleLearnMoreClick = () => {
@@ -27,6 +40,8 @@ const Methods = () => {
   };
   return (
     <div className="App">
+      <NavbarSidebar/>
+      {!isMobile && <Sidebar/>}
       <div className="header-container2">
         <div className="gradient-overlay"></div> {/* Gradient overlay */}
         <div className="header-text">

@@ -155,16 +155,17 @@
     justify-content: center;
   }
 
-  .main-publication-div {
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-  }
 }
 
 @media (max-width: 768px) {
   .bibtex-block .copy-button {
     display: block;
+  }
+
+  .main-publication-div {
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
   }
 
 }

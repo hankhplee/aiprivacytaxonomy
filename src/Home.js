@@ -3,6 +3,9 @@ import { useRef, useEffect, useState } from 'react';
 
 import './App.css';
 import Navbar from './navbar.js';
+import NavbarSidebar from './navbar_sidebar.js';
+import Sidebar from './taxonomy_pages/sidebar';
+
 import { Link } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Publication from './publication';
@@ -74,9 +77,19 @@ const columnData = [
 
 
 function Home() {
-  useEffect(() => {
-    document.title = 'AI Privacy Taxonomy | Home';
-  }, []);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+    useEffect(() => {
+        document.title = 'AI Privacy Taxonomy | Home';
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
   const scrollRef = useRef(null);
 
   const handleLearnMoreClick = () => {
@@ -86,7 +99,8 @@ function Home() {
 
   return (
     <div className="App">
-      <Navbar />
+      <NavbarSidebar/>
+      {!isMobile && <Sidebar/>}
       <div className="header-container">
         <div className="gradient-overlay"></div> {/* Gradient overlay */}
         <div className="header-text">
@@ -142,7 +156,7 @@ function Home() {
             <div className="card-no-animation">
                 <div className="left-content">
                 <div className="large-card-text">93%</div>
-                <div className="small-card-text">of the incidents, AI either exacerbates a known risk or creates a new risk</div>
+                <div className="small-card-text">of the incidents, AI exacerbates a known risk or creates a new risk</div>
                 </div>
                 <div className="right-content">
                 </div>

@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: '100vh',
     overflow: 'auto',
     borderRight: '1px solid gray',
+    zIndex: 5
   },
   circle: {
     height: '5.25vh',

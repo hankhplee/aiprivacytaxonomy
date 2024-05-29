@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './publication.css';
 import './App.css';
 import { IconButton } from '@mui/material';
@@ -6,11 +6,23 @@ import FileCopyIcon from '@mui/icons-material/FileCopy';
 import PublicationPdfImg from './images/publication-pdf-img.png';
 import GoToTop from './GoToTop';
 
+import NavbarSidebar from './navbar_sidebar.js';
+import Sidebar from './taxonomy_pages/sidebar';
+
 function Publication() {
   const pdfUrl = "https://arxiv.org/pdf/2310.07879.pdf";
-  useEffect(() => {
-    document.title = 'AI Privacy Taxonomy | Publication';
-  }, []);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+    useEffect(() => {
+        document.title = 'AI Privacy Taxonomy | Methods';
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+      }, []);
 
   const bibtexRef = useRef(null);
 
@@ -26,6 +38,8 @@ function Publication() {
 
   return (
     <div className="App">
+      <NavbarSidebar/>
+      {!isMobile && <Sidebar/>}
       <div className="header-container-3">
         <div className="gradient-overlay"></div>
         <div className="header-text">

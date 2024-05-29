@@ -486,36 +486,8 @@ a {
 
 @media (max-width: 1000px) {
   .main-title {
-      padding-right: 50px; /* Set width to 100% at a certain breakpoint */
+    font-size: 30px /* Set width to 100% at a certain breakpoint */
   }
-  .main-title-2 {
-    padding-right: 50px;
-  }
-  .header-container {
-    padding-left: 50px;
-  }
-  .header-container2 {
-    padding-left: 50px;
-  }
-  .header-container-3 {
-    padding-left: 50px;
-  }
-
-  .circle-container {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .info-paragraph {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .remove-padding-mobile {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
   .cohens-kappa {
     width: 70%;
     height: 70%
@@ -529,16 +501,44 @@ a {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  .main-title {
+    padding-right: 50px; /* Set width to 100% at a certain breakpoint */
+}
+.main-title-2 {
+  padding-right: 50px;
+}
+.header-container {
+  padding-left: 50px;
+}
+.header-container2 {
+  padding-left: 50px;
+}
+.header-container-3 {
+  padding-left: 50px;
+}
+
+.circle-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info-paragraph {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.remove-padding-mobile {
+  padding-left: 50px;
+  padding-right: 50px;
+}
   .circle-container {
     grid-template-columns: 1fr; /* Changes to a 1-column grid below 700px */
   }
   .card-container {
     flex-direction: column;
   }
-  .main-title {
-    font-size: 30px /* Set width to 100% at a certain breakpoint */
-  }
+
   .remove-padding-mobile {
     padding-left: 0px;
     padding-right: 0px;
@@ -546,7 +546,7 @@ a {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .main-title-2 {
     font-size: 35px /* Set width to 100% at a certain breakpoint */
   }
